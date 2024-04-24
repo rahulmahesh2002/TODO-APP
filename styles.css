@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, yellow, black); 
+    flex-direction: column;   
+}
+img{
+    width: 100px;
+    margin: 0;
+}
+h1{
+    color: black;
+    align-items: center;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgb(255, 174, 0), rgb(248, 255, 41)); 
+    min-width: auto;
+    border-radius: 10px;
+
+}
+.input{
+    padding: 1rem 2rem;
+    display: block;
+    width: auto;
+    border-radius: 10px;
+    border-color: black;
+    align-items: center;
+}
+small{
+    color:darkgray;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.todos{
+    list-style-type: none;
+}
+.todos li{
+    cursor: pointer;
+   
+}
+.todos li.completed{
+    text-decoration: line-through;   /* line through gets activated when todo is complete */
+    color: rgb(76, 76, 75);
+}
